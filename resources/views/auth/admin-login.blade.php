@@ -81,10 +81,11 @@
                     </div><!-- /.form-grp -->
 
                     <div class="col-md-12">
-                        <div class="center-holder">
-                            <button class="btn" type="submit">Login</button>
+                        <div class="">
+                            <button type="submit" class="uk-button uk-button-primary uk-border-rounded">Login</button>
                         </div>
                     </div>
+
                 </form>
 
             </div>
