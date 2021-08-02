@@ -4,22 +4,26 @@
     Admin Login
 @endsection
 
+@section('top-assets')
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+@endsection
+
 @section('content')
-    <div class="page-head section row-vm light has-bg-image">
-        <div class="imagebg bg-image-loaded"
-             style="background-image: url(&quot;{{ asset('main/images/page-inside-bg.jpg') }}&quot;);">
-            <img src="{{ asset('main/images/page-inside-bg.jpg') }}" alt="page-head">
-        </div>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h2>Admin Login</h2>
-                    <div class="page-breadcrumb">
-                        <ul class="breadcrumb">
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li class="active"><span>Admin Login</span></li>
-                        </ul>
-                    </div>
+    <div class="uk-section uk-padding-remove-vertical in-liquid-breadcrumb">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <ul class="uk-breadcrumb">
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><span>Admin Login</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
