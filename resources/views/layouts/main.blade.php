@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="zxx" dir="ltr">
+<html lang="eng" dir="ltr">
 
 <head>
-    <!-- Standard Meta -->
-    <meta charset="utf-8">
-    <meta name="description" content="Premium HTML5 Template by Indonez">
-    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, vanilla javascript">
-    <meta name="author" content="Indonez">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f2f3f5" />
     <!-- Site Properties -->
     <title>@yield('title') - Wealth Max Global Investment</title>
+
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Wealth Max Global Investment">
+    <meta name="keywords" content="Wealth Max Global Investment">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <!-- Critical preload -->
     <link rel="preload" href="{{ asset('main/js/vendors/uikit.min.js') }}" as="script">
     <link rel="preload" href="{{ asset('main/css/vendors/uikit.min.css') }}" as="style">

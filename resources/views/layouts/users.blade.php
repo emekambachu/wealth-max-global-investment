@@ -8,6 +8,8 @@
 
     <title>@yield('title') | Wealth Max Global Investment </title>
 
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <link rel="icon" type="image/x-icon" href="{{ asset('cryptolabsfx_logo.png') }}"/>
     <link href="{{ asset('users/assets/css/loader.css') }}" rel="stylesheet" type="text/css" />
     <script src="{{ asset('users/assets/js/loader.js') }}"></script>
